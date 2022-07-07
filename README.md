@@ -11,7 +11,7 @@ Performing analysis on Kickstarter data to uncover trends
 ### Analysis of Outcomes Based on Launch Date
         Analysis of specifically theater related Kickstarter outcomes was first performed by creating a pivot table from the complete dataset (Fig. 1). To generate the table, the Date Created was used as rows with each cell formatted to show as a month and Kickstarter outcome was used as the columns and as the values listed in the table. The data was then filtered by Parent Category to visualize outcomes specifically for theater Kickstarters. One challenge I faced during this part of the analysis was learning how to 
 
-        ![*Fig. 1*](https://github.com/maronem/kickstarter-analysis/blob/main/launchdate_pivot.PNG)
+(![launchdate_pivot](https://user-images.githubusercontent.com/108199140/177675306-31fed971-c1ae-4592-8504-b1141ab32692.PNG))
 
 ### Analysis of Outcomes Based on Goals
         Analysis was conducted to visualize the percentage of successful, failed, and canceled Kickstaters that were plays based on fundraiser goals. A table was generated with the rows split into categories of fundraiser goal amounts starting under $1000, then $5000 intervals up to $50000, and lastly goals greater than $50000. To assign values to each specific condition COUNTIFS statements were used to pull the number of play Kickstarter campaigns that fit each condition (Fig. 2)
