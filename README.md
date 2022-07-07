@@ -12,16 +12,19 @@ The purpose of this project was to assess the outcome of Kickstarter campaigns b
 ### Analysis of Outcomes Based on Launch Date
 Analysis of specifically theater related Kickstarter outcomes was first performed by creating a pivot table from the complete dataset (Fig. 1). To generate the table, the Date Created was used as rows with each cell formatted to show as a month and Kickstarter outcome was used as the columns and as the values listed in the table. The data was then filtered by Parent Category to visualize outcomes specifically for theater Kickstarters. One challenge I faced during this part of the analysis was learning how to 
 
+#### Fig. 1
 (![launchdate_pivot](https://user-images.githubusercontent.com/108199140/177675306-31fed971-c1ae-4592-8504-b1141ab32692.PNG))
 
 ### Analysis of Outcomes Based on Goals
 Analysis was conducted to visualize the percentage of successful, failed, and canceled Kickstaters that were plays based on fundraiser goals. A table was generated with the rows split into categories of fundraiser goal amounts starting under $1000, then $5000 intervals up to $50000, and lastly goals greater than $50000. To assign values to each specific condition COUNTIFS statements were used to pull the number of play Kickstarter campaigns that fit each condition (Fig. 2)
 
+#### Fig. 2
 ![goals_countif_example](https://user-images.githubusercontent.com/108199140/177675520-53fe3f83-4a28-4c88-9708-4fd390b77e95.PNG)
 
 
 To calculate the percentage of successful, canceled, and failed play Kickstarters the number of successful, canceled, and failed Kickstarters within each donation goal range were divided by the number of total projects. Each cell calculated for a percentage was formatted as a percentage (Fig. 3). 
 
+#### Fig. 3
 ![percentage_fnc_example](https://user-images.githubusercontent.com/108199140/177675545-7e174539-db06-4be2-b6b9-fa7a571a0863.PNG)
 
 
@@ -29,14 +32,16 @@ To calculate the percentage of successful, canceled, and failed play Kickstarter
 
 ## Results
 - What are two conclusions you can draw about the Outcomes based on Launch Date?
-One conclusion based on the plot of Kickstarter outcomes by launch date month is that while there is no trend over time for failed and cancelled Kickstarters, there is a downward trend for successful Kickstarters over time from January to December as seen with the negative slope of the trendline. This data suggests that Kickstarters are more likely to have a successful outcome the earlier in the year that they are launched. Another conclusion based on the outcome of Kickstarters by launch date is that Kickstarters are most likely to be successful if launched in the month of May. This finding holds when assessing outcomes of all Kickstarters as well as the outcome of Kickstarters specifically in the theater category.
-        
+One conclusion based on the plot of Kickstarter outcomes by launch date month is that while there is no trend over time for failed and cancelled Kickstarters, there is a downward trend for successful Kickstarters over time from January to December as seen with the negative slope of the trendline. This data suggests that Kickstarters are more likely to have a successful outcome the earlier in the year that they are launched. Another conclusion based on the outcome of Kickstarters by launch date is that Kickstarters are most likely to be successful if launched in the month of May (Fig. 4). This finding holds when assessing outcomes of all Kickstarters as well as the outcome of Kickstarters specifically in the theater category.
+
+#### Fig. 4
 ![Theater_Outcomes_vs_Launch](https://user-images.githubusercontent.com/108199140/177675582-c3cebeae-5daf-4f36-a82c-7160cedbad6c.png)
 
 
 - What can you conclude about the Outcomes based on Goals?
-Based on the data gathered on Kickstarter outcomes based on goals, it can be concluded that there is a negative correlated between between donation goal and percentage of successful plays and a positive correlation between donation goal and failed plays. These data suggest that a play is more likely to be successful if the donation goal is less than $5000 with a 76% success rate with a donation goal of less than $1000 and a 73% success rate with a donation goal between $1000-$4999. 
+Based on the data gathered on Kickstarter outcomes based on goals, it can be concluded that there is a negative correlated between between donation goal and percentage of successful plays and a positive correlation between donation goal and failed plays (Fig. 5). These data suggest that a play is more likely to be successful if the donation goal is less than $5000 with a 76% success rate with a donation goal of less than $1000 and a 73% success rate with a donation goal between $1000-$4999. 
 
+##### Fig. 5
 ![Outcome_vs_Goals](https://user-images.githubusercontent.com/108199140/177675607-151d4c1f-1fa6-4135-9432-c6ae2706d72d.png)
 
 
