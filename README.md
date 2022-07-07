@@ -31,13 +31,13 @@ Performing analysis on Kickstarter data to uncover trends
 - What are two conclusions you can draw about the Outcomes based on Launch Date?
         One conclusion based on the plot of Kickstarter outcomes by launch date month is that while there is no trend over time for failed and cancelled Kickstarters, there is a downward trend for successful Kickstarters over time from January to December as seen with the negative slope of the trendline. This data suggests that Kickstarters are more likely to have a successful outcome the earlier in the year that they are launched. Another conclusion based on the outcome of Kickstarters by launch date is that Kickstarters are most likely to be successful if launched in the month of May. This finding holds when assessing outcomes of all Kickstarters as well as the outcome of Kickstarters specifically in the theater category.
         
-        ![Theater_Outcomes_vs_Launch](https://user-images.githubusercontent.com/108199140/177675582-c3cebeae-5daf-4f36-a82c-7160cedbad6c.png)
+![Theater_Outcomes_vs_Launch](https://user-images.githubusercontent.com/108199140/177675582-c3cebeae-5daf-4f36-a82c-7160cedbad6c.png)
 
 
 - What can you conclude about the Outcomes based on Goals?
         Based on the data gathered on Kickstarter outcomes based on goals, it can be concluded that there is a negative correlated between between donation goal and percentage of successful plays and a positive correlation between donation goal and failed plays. These data suggest that a play is more likely to be successful if the donation goal is less than $5000 with a 76% success rate with a donation goal of less than $1000 and a 73% success rate with a donation goal between $1000-$4999. 
 
-    ![Outcome_vs_Goals](https://user-images.githubusercontent.com/108199140/177675607-151d4c1f-1fa6-4135-9432-c6ae2706d72d.png)
+![Outcome_vs_Goals](https://user-images.githubusercontent.com/108199140/177675607-151d4c1f-1fa6-4135-9432-c6ae2706d72d.png)
 
 
 - What are some limitations of this dataset?
